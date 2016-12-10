@@ -48,7 +48,8 @@ public class PlayerController : MonoBehaviour {
 			
 		if (moving) {
 			transform.Translate (desiredMove * maxSpeed * Time.deltaTime);
+		} else {
+			gameObject.GetComponent<Rigidbody> ().velocity = Vector3.zero;
 		}
-
 	}
 }
