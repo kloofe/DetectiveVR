@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Item name="Cube">I am a cube!</Item>
+	<Item name="Sphere">Spheres are awesome</Item>
+	<Item name="Cylinder">Cylinders are the best~</Item>
+</Items>
