@@ -6,6 +6,9 @@ TagManager:
   tags:
   - evidence
   - people
+  - Interactable
+  - Target
+  - Button
   layers:
   - Default
   - TransparentFX

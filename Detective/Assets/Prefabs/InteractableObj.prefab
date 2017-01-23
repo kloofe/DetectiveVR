@@ -107,7 +107,7 @@ MonoBehaviour:
   Mcam: {fileID: 0}
   target: {fileID: 0}
   description: 
-  name: 43796c696e646572
+  name: Cylinder
 --- !u!136 &136000010828431476
 CapsuleCollider:
   m_ObjectHideFlags: 1

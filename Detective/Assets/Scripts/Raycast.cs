@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Raycast : MonoBehaviour {
 	public RaycastHit hit;
@@ -27,11 +28,16 @@ public class Raycast : MonoBehaviour {
 			}else if(Physics.Raycast (myRay, out hit, 12f, 1 << 11)){
 				GetComponent<Renderer> ().material.color = Color.blue;
 				hitTag = hit.collider.tag;
-			}
+			}		
 			else {
 				hitTag = "";
 				GetComponent<Renderer> ().material.color = Color.red;
 			}
+			if(Physics.Raycast (myRay, out hit, 12f, 1 << 5)){
+				GetComponent<Renderer> ().material.color = Color.yellow;
+				hitTag = hit.collider.gameObject.GetComponentInChildren<Text>().text;
+				hitObject = hit.collider.gameObject;
+			}	
 		}
 
 		Objecthit ();
