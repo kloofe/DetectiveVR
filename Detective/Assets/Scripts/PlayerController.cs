@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject target;
 	private bool moving;
 	private bool foundsomething;
+	public GameObject inv;
 
 	// Use this for initialization
 	void Start () {
@@ -25,23 +26,28 @@ public class PlayerController : MonoBehaviour {
 
 
 		if (GvrViewer.Instance.Triggered) {
+			if(!inv.GetComponent<InventorySystem>().talking) {
 
-			if ((target.gameObject.GetComponent<Renderer> ().material.color == Color.green) && (foundsomething == false)) {
-				if (moving == false) {
-					Debug.Log ("I found something");
-					foundsomething = true;
-				} else {
-					moving = false;
+				if ((target.gameObject.GetComponent<Renderer> ().material.color == Color.green) && (foundsomething == false)) {
+					if (moving == false) {
+						Debug.Log ("I found something");
+						foundsomething = true;
+					} else {
+						moving = false;
+					}
+
+
+				} else{
+					if (moving) {
+						moving = false;
+					} else {
+						moving = true;
+						foundsomething = false;
+					}
 				}
-
-
-			} else{
-				if (moving) {
-					moving = false;
-				} else {
-					moving = true;
-					foundsomething = false;
-				}
+			}
+			else {
+				moving = false;
 			}
 
 		}

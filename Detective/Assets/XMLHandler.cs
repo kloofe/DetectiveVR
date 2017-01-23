@@ -16,7 +16,7 @@ public class XMLHandler : MonoBehaviour {
 	void Start () {
 		items = new Dictionary<string, string>();
 		LoadXML();
-		AttachDescriptions();
+		//AttachDescriptions();
 	}
 	
 	// Update is called once per frame
@@ -49,9 +49,9 @@ public class XMLHandler : MonoBehaviour {
 	}
 
 	void AttachDescriptions() {
-		GameObject[] objs = GameObject.FindGameObjectsWithTag("Interactable");
+		GameObject[] objs = GameObject.FindGameObjectsWithTag("evidence");
 		foreach(GameObject o in objs) {
-			InteractableItem script = o.GetComponent<InteractableItem>();
+			ObjectMotherClass script = o.GetComponent<ObjectMotherClass>();
 			script.description = items[script.name];
 		}
 	}

@@ -5,10 +5,17 @@ public class ObjectMotherClass : MonoBehaviour {
 	public Camera cam;
 	public GameObject target;
 	public int i;
+	public string description;
 
 	public void Start()
 	{
-	
+
+		if(cam == null) {
+			cam = (Camera) GameObject.FindGameObjectsWithTag("MainCamera")[0].GetComponent<Camera>();
+		}
+		if(target == null) {
+			target = GameObject.FindGameObjectsWithTag("Target")[0];
+		}
 	}
 
 	public void Update(){
