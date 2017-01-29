@@ -15,7 +15,7 @@ public class XMLHandler : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		items = new Dictionary<string, string>();
-		LoadXML();
+		//LoadXML();
 		AttachDescriptions();
 	}
 	
