@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class NewBehaviourScript : MonoBehaviour {
+	/*
 	public GameObject chest;
 	public GameObject secretPathway;
 	public GameObject pathwayDoor;
@@ -182,6 +183,6 @@ public class NewBehaviourScript : MonoBehaviour {
 			}
 		}
 
-	}
+	}*/
 }
 */
