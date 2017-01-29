@@ -10,13 +10,13 @@ public class XMLHandler : MonoBehaviour {
 	private XmlDocument xmlDoc;
 	private string filepath;
 
-	public Dictionary<string, string> items;
+	public Dictionary<string, Dictionary<string, string>> lines;
 
 	// Use this for initialization
 	void Start () {
-		items = new Dictionary<string, string>();
+		lines = new Dictionary<string, Dictionary<string,string>>();
 		LoadXML();
-		AttachDescriptions();
+		//AttachDescriptions();
 	}
 	
 	// Update is called once per frame
@@ -25,6 +25,7 @@ public class XMLHandler : MonoBehaviour {
 	}
 
 	void LoadXML() {
+		/*
 		filepath = Application.streamingAssetsPath + @"/XML/ItemText.xml";
 		Debug.Log(filepath);
 		if (File.Exists (filepath)) 
@@ -42,10 +43,10 @@ public class XMLHandler : MonoBehaviour {
 			XmlNodeList nodes = xmlDoc.GetElementsByTagName("Item");
 
 			foreach(XmlNode item in nodes) {
-				items[item.Attributes["name"].Value] = item.InnerText;
+				//lines [item.Attributes["name"].Value] = item.InnerText;
 			}
 
-		}	
+		}	*/
 
 		filepath = Application.streamingAssetsPath + @"/XML/itemDialogues.xml";
 		Debug.Log(filepath);
@@ -61,10 +62,12 @@ public class XMLHandler : MonoBehaviour {
 			}
 
 
-			XmlNodeList nodes = xmlDoc.GetElementsByTagName("Item");
+			XmlNodeList nodes = xmlDoc.GetElementsByTagName("person");
 
-			foreach(XmlNode item in nodes) {
-				items[item.Attributes["name"].Value] = item.InnerText;
+			foreach(XmlNode person in nodes) {
+				foreach (XmlNode item in person.ChildNodes) {
+					lines [person.Attributes["name"].Value][item.Attributes["type"].Value] = item.InnerText;
+				}
 			}
 
 		}	

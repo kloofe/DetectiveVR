@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class InteractableItem : MonoBehaviour
@@ -18,4 +18,4 @@ public class InteractableItem : MonoBehaviour
 
 
 }
-
+*/

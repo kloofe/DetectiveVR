@@ -17,6 +17,9 @@ public class InventorySystem : MonoBehaviour
 	public string text;
 	public GameObject itemButton;
 	private int size;
+	public string person;
+
+	private GameObject p;
 
 	public bool talking;
 
@@ -56,6 +59,7 @@ public class InventorySystem : MonoBehaviour
 				hitTag = "";
 				Debug.Log (hitName + " is added to the InventorySystem");
 			} else if (!talking && hitTag == "people"){
+				person = targetname.hitname;
 				Vector3 tarPos = cam.transform.parent.transform.position;
 				Vector3 pos = new Vector3(tarPos.x, tarPos.y, tarPos.z);
 				transform.position = pos;
@@ -65,9 +69,8 @@ public class InventorySystem : MonoBehaviour
 				 	child.gameObject.SetActive(true);
 				 }
 				generateInv ();
-				DialoguePanel.SetActive(true);
 				//objects.text = text;
-				Dialogue.text = "Hello I'm a person....";
+				p = hitObject;
 				talking = true;
 			}
 			else if(talking && hitTag != "evidence" && hitTag != "people") {
@@ -78,7 +81,8 @@ public class InventorySystem : MonoBehaviour
 					 }
 				}
 				else {
-					Dialogue.text = hitTag;
+					DialoguePanel.SetActive(true);
+					Dialogue.text = p.GetComponent<PersonAttributes>().Line(hitTag);
 				}
 			}
 		}
