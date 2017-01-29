@@ -66,6 +66,10 @@ public class XMLHandler : MonoBehaviour {
 
 			foreach(XmlNode person in nodes) {
 				foreach (XmlNode item in person.ChildNodes) {
+					if(!lines.ContainsKey(person.Attributes["name"].Value)) {
+						lines [person.Attributes["name"].Value] = new Dictionary<string, string>();	
+
+					}
 					lines [person.Attributes["name"].Value][item.Attributes["type"].Value] = item.InnerText;
 				}
 			}

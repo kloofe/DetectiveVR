@@ -19,7 +19,7 @@ public class InventorySystem : MonoBehaviour
 	private int size;
 	public string person;
 
-	private GameObject p;
+	public GameObject p;
 
 	public bool talking;
 
@@ -82,7 +82,7 @@ public class InventorySystem : MonoBehaviour
 				}
 				else {
 					DialoguePanel.SetActive(true);
-					Dialogue.text = p.GetComponent<PersonAttributes>().Line(hitTag);
+					Dialogue.text = p.GetComponent<PersonAttribute>().Line(hitTag.ToLower());
 				}
 			}
 		}

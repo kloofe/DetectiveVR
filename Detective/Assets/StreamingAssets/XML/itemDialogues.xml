@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <itemDialogues>
 	<person name="maid">
-		<item type = "cash">
+		<item type = "lamp">
 			It is 5000 dollars.			
 			Why do you prepare these amount of cash?
 			My son is going to a fairly good high school, and I need to prepare him the money. 
@@ -33,7 +34,7 @@
 			This is Mr.XXX's testament.
 		</item>
 		<item type = "decoration sword.">
-			This is the sword is the decoration on the stairs.
+			This is the sword that is the decoration on the stairs.
 		</item>
 		<item type = "stock">
 			This is the stock of the company that Mr.XXX currently runs. 
