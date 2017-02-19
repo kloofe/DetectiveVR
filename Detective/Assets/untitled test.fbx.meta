@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: b8d7f41b67420e7498fce77a43994f16
+timeCreated: 1487548004
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.001
+    100004: Camera.002
+    100006: Camera.003
+    100008: Camera.004
+    100010: Cube.019
+    100012: Cube.019_MeshPart0
+    100014: Cube.019_MeshPart1
+    100016: Lamp
+    100018: Lamp.001
+    100020: Lamp.002
+    100022: Lamp.003
+    100024: Lamp.004
+    100026: Lamp.005
+    100028: Lamp.006
+    100030: Lamp.007
+    100032: Lamp.008
+    100034: Lamp.009
+    100036: Lamp.010
+    100038: Lamp.011
+    100040: Lamp.014
+    100042: Lamp.016
+    100044: Lamp.018
+    100046: Lamp.019
+    100048: Lamp.021
+    100050: Lamp.022
+    100052: Lamp.023
+    100054: Lamp.025
+    100056: Lamp.026
+    100058: Lamp.028
+    100060: Lamp.052
+    100062: Lamp.053
+    100064: Lamp.054
+    100066: Lamp.055
+    100068: Lamp.056
+    100070: //RootNode
+    400000: Camera
+    400002: Camera.001
+    400004: Camera.002
+    400006: Camera.003
+    400008: Camera.004
+    400010: Cube.019
+    400012: Cube.019_MeshPart0
+    400014: Cube.019_MeshPart1
+    400016: Lamp
+    400018: Lamp.001
+    400020: Lamp.002
+    400022: Lamp.003
+    400024: Lamp.004
+    400026: Lamp.005
+    400028: Lamp.006
+    400030: Lamp.007
+    400032: Lamp.008
+    400034: Lamp.009
+    400036: Lamp.010
+    400038: Lamp.011
+    400040: Lamp.014
+    400042: Lamp.016
+    400044: Lamp.018
+    400046: Lamp.019
+    400048: Lamp.021
+    400050: Lamp.022
+    400052: Lamp.023
+    400054: Lamp.025
+    400056: Lamp.026
+    400058: Lamp.028
+    400060: Lamp.052
+    400062: Lamp.053
+    400064: Lamp.054
+    400066: Lamp.055
+    400068: Lamp.056
+    400070: //RootNode
+    2300000: Cube.019_MeshPart0
+    2300002: Cube.019_MeshPart1
+    3300000: Cube.019_MeshPart0
+    3300002: Cube.019_MeshPart1
+    4300000: Cube.019_MeshPart0
+    4300002: Cube.019_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
