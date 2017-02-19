@@ -47,15 +47,16 @@ public class XMLHandler : MonoBehaviour {
 			}
 
 		}	*/
-
-		filepath = Application.streamingAssetsPath + @"/XML/itemDialogues.xml";
-		Debug.Log(filepath);
-		if (File.Exists (filepath)) 
-		{
+		TextAsset textAsset = (TextAsset)Resources.Load("itemDialogues", typeof(TextAsset));
+		//filepath = Application.streamingAssetsPath + @"/XML/itemDialogues.xml";
+		//Debug.Log(filepath);
+		//if (File.Exists (filepath)) 
+		Debug.Log(textAsset);
+		//{
 			//Debug.Log("Foun XML file");
 			xmlDoc = new XmlDocument ();
 			try {
-				xmlDoc.Load (filepath);
+				xmlDoc.LoadXml ( textAsset.text );
 			} catch (FileNotFoundException) {
 				Debug.Log ("The file for loading the XML was not found");
 				return;
@@ -74,7 +75,7 @@ public class XMLHandler : MonoBehaviour {
 				}
 			}
 
-		}	
+		//}	
 	}
 
 	void AttachDescriptions() {

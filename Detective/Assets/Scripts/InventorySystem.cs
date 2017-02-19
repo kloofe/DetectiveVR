@@ -24,6 +24,8 @@ public class InventorySystem : MonoBehaviour
 	public bool talking;
 
 	private GameObject cam;
+
+	private bool dialogueDisplaying;
 	// Use this for initialization
 	void Start ()
 	{
@@ -34,6 +36,7 @@ public class InventorySystem : MonoBehaviour
 		cam = target.transform.parent.gameObject;
 		talking = false;
 		size = 0;
+		dialogueDisplaying = false;
 
 	}
 	
@@ -80,9 +83,12 @@ public class InventorySystem : MonoBehaviour
 					 	child.gameObject.SetActive(false);
 					 }
 				}
-				else {
+				else if(!dialogueDisplaying) {
 					DialoguePanel.SetActive(true);
-					Dialogue.text = p.GetComponent<PersonAttribute>().Line(hitTag.ToLower());
+					Debug.Log("Line:");
+					Debug.Log(p.GetComponent<PersonAttribute>().Line(hitTag.ToLower()));
+					StartCoroutine(DisplayDialogue(p.GetComponent<PersonAttribute>().Line(hitTag.ToLower()).Trim().Split("\n"[0])));
+
 				}
 			}
 		}
@@ -91,6 +97,17 @@ public class InventorySystem : MonoBehaviour
 			Panel.SetActive (false);
 			DialoguePanel.SetActive(false);
 		}*/
+	}
+
+	IEnumerator DisplayDialogue(string[] lines) {
+		dialogueDisplaying = true;
+		Debug.Log("Number of lines: " + lines.Length);
+		for(int i = 0; i < lines.Length; i++) {
+			Dialogue.text = lines[i];
+			yield return new WaitForSeconds(3f);
+		}
+		DialoguePanel.SetActive(false);
+		dialogueDisplaying = false;
 	}
 
 	void generateInv(){
