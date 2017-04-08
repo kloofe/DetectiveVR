@@ -29,7 +29,11 @@ public class Raycast : MonoBehaviour {
 				GetComponent<Renderer> ().material.color = Color.blue;
 				hitTag = hit.collider.tag;
 				hitObject = hit.collider.gameObject;
-			}		
+			}
+			else if(Physics.Raycast(myRay, out hit, 12f, 1 << 13)) {
+				GetComponent<Renderer> ().material.color = Color.green;
+				//hit.collider.gameObject.GetComponent<
+			}	
 			else {
 				hitTag = "";
 				GetComponent<Renderer> ().material.color = Color.red;
