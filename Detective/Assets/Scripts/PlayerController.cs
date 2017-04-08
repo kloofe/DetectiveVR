@@ -37,7 +37,11 @@ public class PlayerController : MonoBehaviour {
 					}
 
 
-				} else{
+				}
+				else if((target.gameObject.GetComponent<Renderer> ().material.color == Color.yellow)) {
+					moving  = false;
+				}
+				 else{
 					if (moving) {
 						moving = false;
 					} else {

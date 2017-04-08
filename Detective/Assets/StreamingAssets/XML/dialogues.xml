@@ -1,0 +1,177 @@
+<itemDialogues>
+	<person name="maid">
+		<item type = "cash">
+			It is 5000 dollars.			
+			Why do you prepare these amount of cash?
+			My son is going to a fairly good high school, and I need to prepare him the money. 
+		</item>
+		<item type = "planeticket">
+			You are going to XXX with Mr.XXX, right?
+			Yes, He is planning to travel for two months. I am going with him to take care of him.
+		</item>
+		<item type = "pills">
+			Mr.XXX always has stomachache, He feels that taking pills after throw up helps. So I went there to give him the pill.
+		</item>
+		<item type = "threatened">
+			I found out something that I wasn't supposed to find out. So he definitely would kill me, and someone told me it was today... As what was proven... I need to live, though... For my son... And I need the money...
+		</item>
+		<item type = "powder">
+			It was just some kinds of powder...
+		</item>
+		<item type = "gun">
+			Do you know anything about this gun?
+			That is Mr.XXX's gun. he usually puts it in the upper drawer of the night stand on the right of his bed.
+		</item>
+		<item type = "reason">
+			What is the reason that Mr.XXX want to kill you?
+			I could say no more... But I believe that he wanted me die ever since he found me reading this.
+		</item>
+		<item type = "contract">
+			This must be the contract for this house.
+		</item>
+		<item type = "testament">
+			This is Mr.XXX's testament.
+		</item>
+		<item type = "decoration sword.">
+			This is the sword is the decoration on the stairs.
+		</item>
+		<item type = "stock">
+			This is the stock of the company that Mr.XXX currently runs. 
+		</item>
+		<item type= "planecrashprove">
+			Do you know that this plane is going to crash?
+			Ehhh... Yes. But Mr.XXX always makes the right decision, so I trust him. 
+		</item>
+	</person>
+	<person name = "friend">
+		<item type = "testament"> 
+			So this testament listed a lot of paintings Mr.XXX plans to give you after he dies.
+			Yes. He planned to give me all the paintings he collected. Our company lost a lot of money because of his decision. I never blamed him. But he knows I love to collect paintings, so he plans to give all his paintings to me as compensation.
+			Yet he crossed out the XXXXXX just in his latest amendment to the testament. Do you know about that?
+ 			Ehhh... Yes, after the painting was found again, he crossed it from the list he is going to send to me. What a pity! I was there when he made this decision. 
+		</item>
+		<item type = "contract"> 
+			Yes, this house was own by my family for the last century. But my father gave it to him, since he believes that Mr.XXX would be a great man in the future. He gave him all the paintings he collected, too!
+		</item>
+		<item type = "sleepingPillBox"> 
+			I have a hard time falling a sleep these days. So that I have to use this medicine.
+		</item>
+		<item type = "stock"> 
+			Well, Mr.XXX is a great businessman, very ambitious and earned a whole bunch of money, but stubborn, which may lead to disasters.";
+		</item>
+		<item type = "gun">
+			Not quite sure whose gun is it.
+		</item>
+		<item type = "insurance">
+			Boy! His son would gain a lot of money if hie dies!
+		</item>
+		<item type = "sonIOU">
+			How come it that he could owe others that amount of money!
+		</item>
+		<item type = "constructionmap">
+			This is the construction of the house. It goes to Mr.XXX along with the house contract after he bought this house. 
+		</item>
+		<item type = "houseContract">
+			This must be the house contract.
+		</item>
+		<item type = "photo">
+			This is Mr.XXX with my family just outside this house when we were both young.		
+		</item>
+		<item type = "sword">
+			OháThis is the sword on the stairs. It is one of the best swords that I have seen in the world.
+		</item>
+		<item type = "planeticket">
+			If it wasn't the incident, he is supposed to be on the plane now.
+		</item>
+		<item type = "cash">
+			I don't really know whose money is it.
+		</item>
+	</person>
+	<person name = "girlfriend">
+		<item type = "suitcase">
+			I don't think that by far this suitcase has anything to do with the case, so I am not going to open that for you. But if you really need it, you can try find the password and open it by yourself.
+		</item>
+		<item type = "cash">
+			I don't really know whose money is it.
+		</item>
+		<item type = "gun">
+			It that Mr.XXX's gun?
+		</item>
+		<item type = "insurance">
+			Huh! That man really put a lot of effort to make his son break up with me!
+		</item>
+		<item type = "IOU">
+			I have never known that he owes this amount of money!
+		</item>
+		<item type = "map">
+			I have never seen this map before, not to mention knowing what these marks mean.
+		</item>
+		<item type = "housecontract">
+ 			May I ask in what way does this housecontract relate to me?
+		</item>
+		<item type = "testament">
+			It seems on here that actually Mr.F would benefit the most and the maid would also benefit a lot from it.
+		</item>
+		<item type = "photo">
+			That is not my photo.
+		</item>
+		<item type = "spb">
+			Is it because of this that we all slept so deep last night and no one heard a noise of gun shot?
+		</item>
+		<item type = "sword">
+			I can only see that it is a sword.
+		</item>
+		<item type = "planeticket">
+			This Mr.XXX's plane ticket for traveling.
+		</item>
+		<item type = "envelop">
+			Not sure who owns it. 
+		</item>
+		<item type = "cash">
+			That is really a large amount of money!
+		</item>
+	</person>
+	<person name = "son">
+		<item type = "boyIOU">
+			Why did you borrow money? 
+			That has nothing to do with the case, right?
+		</item>
+		<item type = "boyCollections"> 
+			Could you please explain that why are these collections in your room?
+			That...Humm... My father gave them to me. I am his son, afterall.
+		</item>
+		<item type = "insurance">
+			Why do you keep the photo of your insurance?
+			I need to make sure that if anything happened to him someday, I would get the insurance.
+		</item>
+		<item type = "insuance1">	
+			You do need a large amount of money, don't you?
+			Come on! You have seen that I do gamble and I need money. But I could never do any harm to my father! I don't dare to! I was just sleeping!
+			Alright! Alright! Calm down! I am not sending you to prison. I am just asking!
+		</item>
+		<item type = "constructionmap">	
+			Nice! you have got a construction map of the house here! What do these red crossings mean?
+			I got that to see if my father puts his treasures in somewhere else in the house. But I found nothing and I have no idea what these mean.
+		</item>
+		<item type = "gun">
+			That is the gun my father used to threaten me to break up with my girlfriend.
+		</item>
+	</person>
+	<person name = "player">		
+		<item type = "decoratingSword">
+		 	This must be the thing that cut through the carpet. I need to ask them about this and see how they reflect.		
+		</item>
+		<item type = "askThrowup">
+			Mr.XXX didn't have a easy night last night. It seems that he had his heavy stomachache again.
+		</item>	
+		<item type = "asktestamentmaid">
+			It seems that this testament benefits you a lot...
+		</item>
+		<item type = "askIOUgirl">
+			Do you know about him owing others' money?
+		</item>
+		<item type = "map">
+			Do you know what the red crossings mean on this map?		
+		</item>
+	</person>	
+</itemDialogues>
