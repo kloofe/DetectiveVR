@@ -183,6 +183,6 @@ public class NewBehaviourScript : MonoBehaviour {
 			}
 		}
 
-	}*/
+	}
 }
 */
