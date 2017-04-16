@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 2c75d199717c4664aa298e67d8957a32
+timeCreated: 1492306230
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.002
+    100004: Camera.003
+    100006: Lamp
+    100008: Lamp.001
+    100010: Lamp.002
+    100012: Lamp.003
+    100014: Lamp.004
+    100016: Lamp.005
+    100018: Lamp.006
+    100020: Lamp.007
+    100022: Lamp.008
+    100024: Lamp.009
+    100026: Lamp.010
+    100028: Lamp.011
+    100030: Lamp.012
+    100032: Lamp.013
+    100034: Lamp.014
+    100036: Lamp.017
+    100038: Lamp.019
+    100040: Lamp.020
+    100042: Lamp.022
+    100044: Lamp.023
+    100046: Lamp.024
+    100048: Lamp.025
+    100050: Lamp.026
+    100052: Lamp.027
+    100054: Lamp.028
+    100056: Lamp.029
+    100058: Lamp.038
+    100060: Lamp.039
+    100062: Lamp.040
+    100064: Lamp.042
+    100066: Lamp.043
+    100068: Lamp.044
+    100070: Lamp.045
+    100072: Plane.025
+    100074: Plane.025_MeshPart0
+    100076: Plane.025_MeshPart1
+    100078: Plane.025_MeshPart2
+    100080: Plane.025_MeshPart3
+    100082: Plane.025_MeshPart4
+    100084: Plane.025_MeshPart5
+    100086: Plane.025_MeshPart6
+    100088: Plane.025_MeshPart7
+    100090: Point
+    100092: Point.001
+    100094: Point.002
+    100096: Point.003
+    100098: Point.004
+    100100: Point.005
+    100102: Point.014
+    100104: Point.015
+    100106: Point.016
+    100108: Point.017
+    100110: Point.018
+    100112: Point.019
+    100114: Point.020
+    100116: Sphere.241
+    100118: //RootNode
+    400000: Camera
+    400002: Camera.002
+    400004: Camera.003
+    400006: Lamp
+    400008: Lamp.001
+    400010: Lamp.002
+    400012: Lamp.003
+    400014: Lamp.004
+    400016: Lamp.005
+    400018: Lamp.006
+    400020: Lamp.007
+    400022: Lamp.008
+    400024: Lamp.009
+    400026: Lamp.010
+    400028: Lamp.011
+    400030: Lamp.012
+    400032: Lamp.013
+    400034: Lamp.014
+    400036: Lamp.017
+    400038: Lamp.019
+    400040: Lamp.020
+    400042: Lamp.022
+    400044: Lamp.023
+    400046: Lamp.024
+    400048: Lamp.025
+    400050: Lamp.026
+    400052: Lamp.027
+    400054: Lamp.028
+    400056: Lamp.029
+    400058: Lamp.038
+    400060: Lamp.039
+    400062: Lamp.040
+    400064: Lamp.042
+    400066: Lamp.043
+    400068: Lamp.044
+    400070: Lamp.045
+    400072: Plane.025
+    400074: Plane.025_MeshPart0
+    400076: Plane.025_MeshPart1
+    400078: Plane.025_MeshPart2
+    400080: Plane.025_MeshPart3
+    400082: Plane.025_MeshPart4
+    400084: Plane.025_MeshPart5
+    400086: Plane.025_MeshPart6
+    400088: Plane.025_MeshPart7
+    400090: Point
+    400092: Point.001
+    400094: Point.002
+    400096: Point.003
+    400098: Point.004
+    400100: Point.005
+    400102: Point.014
+    400104: Point.015
+    400106: Point.016
+    400108: Point.017
+    400110: Point.018
+    400112: Point.019
+    400114: Point.020
+    400116: Sphere.241
+    400118: //RootNode
+    2300000: Plane.025_MeshPart0
+    2300002: Plane.025_MeshPart1
+    2300004: Plane.025_MeshPart2
+    2300006: Plane.025_MeshPart3
+    2300008: Plane.025_MeshPart4
+    2300010: Plane.025_MeshPart5
+    2300012: Plane.025_MeshPart6
+    2300014: Plane.025_MeshPart7
+    2300016: Sphere.241
+    3300000: Plane.025_MeshPart0
+    3300002: Plane.025_MeshPart1
+    3300004: Plane.025_MeshPart2
+    3300006: Plane.025_MeshPart3
+    3300008: Plane.025_MeshPart4
+    3300010: Plane.025_MeshPart5
+    3300012: Plane.025_MeshPart6
+    3300014: Plane.025_MeshPart7
+    3300016: Sphere.241
+    4300000: Plane.025_MeshPart0
+    4300002: Plane.025_MeshPart1
+    4300004: Plane.025_MeshPart2
+    4300006: Plane.025_MeshPart3
+    4300008: Plane.025_MeshPart4
+    4300010: Plane.025_MeshPart5
+    4300012: Plane.025_MeshPart6
+    4300014: Plane.025_MeshPart7
+    4300016: Sphere.241
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
