@@ -54,6 +54,7 @@ public class InventorySystem : MonoBehaviour
 			string hitName = targetname.hitname;
 			hitObject = targetname.hitObject;
 			hitCollider = targetname.hitCollider;
+			Debug.Log(hitTag);
 
 			if (!talking && hitTag == "evidence") {
 				collections.Insert (0, hitName);

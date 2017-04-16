@@ -11,7 +11,9 @@ public class Raycast : MonoBehaviour {
 	public Collider hitCollider;
 	// Use this for initialization
 	void Start () {
-	
+		if(cam == null) {
+			cam = GameObject.FindGameObjectsWithTag("MainCamera")[0];
+		}	
 	}
 	
 	// Update is called once per frame
@@ -20,32 +22,49 @@ public class Raycast : MonoBehaviour {
 		Debug.DrawRay (transform.position,cam.transform.forward*10,Color.black);
 		if (gameObject.activeSelf == true) {
 			if (Physics.Raycast (myRay, out hit, 12f, 1 << 10)) {
-				GetComponent<Renderer> ().material.color = Color.green;
+				ChangeColor(Color.green);
 				hitname = hit.collider.name;
 				hitTag = hit.collider.tag;
-				hitObject = hit.collider.gameObject;
+				if(hitTag == "Untagged") {
+					hitTag = hit.collider.gameObject.transform.parent.gameObject.tag;
+					hitObject = hit.collider.gameObject.transform.parent.gameObject;
+				}
+				else {
+					hitObject = hit.collider.gameObject;
+				}
 				hitCollider = hit.collider;
 			}else if(Physics.Raycast (myRay, out hit, 12f, 1 << 11)){
-				GetComponent<Renderer> ().material.color = Color.blue;
+				ChangeColor(Color.blue);
 				hitTag = hit.collider.tag;
 				hitObject = hit.collider.gameObject;
 			}
 			else if(Physics.Raycast(myRay, out hit, 12f, 1 << 13)) {
-				GetComponent<Renderer> ().material.color = Color.green;
+				ChangeColor(Color.green);
 				//hit.collider.gameObject.GetComponent<
 			}	
 			else {
+				ChangeColor(Color.red);
 				hitTag = "";
-				GetComponent<Renderer> ().material.color = Color.red;
 			}
 			if(Physics.Raycast (myRay, out hit, 12f, 1 << 5)){
-				GetComponent<Renderer> ().material.color = Color.yellow;
+				ChangeColor(Color.yellow);
 				hitTag = hit.collider.gameObject.GetComponentInChildren<Text>().text;
 				hitObject = hit.collider.gameObject;
 			}	
 		}
 
-		Objecthit ();
+		//Objecthit ();
+	}
+
+	private void ChangeColor(Color c) {
+		if(GetComponent<Renderer>() == null) {
+			foreach(Renderer r in GetComponentsInChildren<Renderer>()) {
+				r.material.color = c;
+			}
+		}
+		else {
+			GetComponent<Renderer> ().material.color = c;	
+		}
 	}
 
 	public void Objecthit(){
