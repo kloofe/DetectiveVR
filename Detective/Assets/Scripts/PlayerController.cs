@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour {
 
 	public float maxSpeed;
 	public GameObject cam;
-	//public GameObject target;
+	public GameObject target;
 	private bool moving;
 	private bool foundsomething;
 	public GameObject inv;
@@ -25,10 +25,10 @@ public class PlayerController : MonoBehaviour {
 		desiredMove.y = 0f;
 
 
-		if (GvrViewer.Instance.Triggered) {/*
+		if (GvrViewer.Instance.Triggered) {
 			if(!inv.GetComponent<InventorySystem>().talking) {
 
-				/*if ((target.gameObject.GetComponent<Renderer> ().material.color == Color.green) && (foundsomething == false)) {
+				if ((target.gameObject.GetComponent<Renderer> ().material.color == Color.green) && (foundsomething == false)) {
 					if (moving == false) {
 						Debug.Log ("I found something");
 						foundsomething = true;
@@ -54,8 +54,6 @@ public class PlayerController : MonoBehaviour {
 				moving = false;
 			}
 
-		}*/
-			moving = !moving;
 		}
 			
 		if (moving) {
