@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour {
 	private bool moving;
 	private bool foundsomething;
 	public GameObject inv;
+	private bool frozen;
 
 	// Use this for initialization
 	void Start () {
 		moving = false;
 		foundsomething = false;
+		frozen = false;
 		//target.gameObject.SetActive (false);
 
 	}
@@ -55,11 +57,20 @@ public class PlayerController : MonoBehaviour {
 			}
 
 		}
+
+		// If in a state that the player cannot move: moving is false
+		if(frozen) {
+			moving = false;
+		}
 			
 		if (moving) {
 			transform.Translate (desiredMove * maxSpeed * Time.deltaTime);
 		} else {
 			gameObject.GetComponent<Rigidbody> ().velocity = Vector3.zero;
 		}
+	}
+
+	public void SetFrozen(bool b) {
+		frozen = b;
 	}
 }
