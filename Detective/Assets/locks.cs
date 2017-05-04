@@ -7,6 +7,7 @@ public class locks : MonoBehaviour {
 	public GameObject lock2;
 	public GameObject lock3;
 	public GameObject lock4;
+	public GameObject lockObj;
 	public RaycastHit hit;
 	public Camera camera;
 	private bool playing;
@@ -24,7 +25,7 @@ public class locks : MonoBehaviour {
 				Debug.Log (hit.collider.name);
 				if (GvrViewer.Instance.Triggered) {
 					hit.collider.gameObject.transform.Rotate(Vector3.up, 36);
-				} 
+				}
 			}
 			if (Rotatelock ()) {
 				playing = false;
@@ -36,6 +37,13 @@ public class locks : MonoBehaviour {
 
 	public void StartLockPuzzle() {
 		playing = true;
+		Vector3 tarPos = camera.transform.parent.transform.position;
+		Vector3 pos = new Vector3(tarPos.x, tarPos.y + .8f, tarPos.z);
+		lockObj.transform.position = pos + camera.transform.forward * 2;
+		Vector3 angles = camera.transform.eulerAngles;
+		// 0 = 180; 90 = 270; 180 = 0; 270 = 90;
+		lockObj.transform.eulerAngles = new Vector3(90f, 180 + angles.y, 0f);
+		Debug.Log(camera.transform.forward);
 		GetComponent<PlayerController>().SetFrozen(true);
 	}
 
