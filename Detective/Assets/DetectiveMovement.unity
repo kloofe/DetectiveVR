@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -771,6 +771,7 @@ MonoBehaviour:
   hitObject1: {fileID: 0}
   hitObject2: {fileID: 0}
   camera: {fileID: 1386544351}
+  puzzleObj: {fileID: 1806257213}
   i: 0
 --- !u!114 &78758181
 MonoBehaviour:
@@ -1608,7 +1609,7 @@ Transform:
   - {fileID: 314287612}
   - {fileID: 581336909}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &236236941
 Prefab:
@@ -1647,7 +1648,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400070, guid: 02c21e6129d42ed46b4de56e7fdbeb6e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400070, guid: 02c21e6129d42ed46b4de56e7fdbeb6e, type: 3}
       propertyPath: m_LocalScale.x
@@ -4378,7 +4379,7 @@ Prefab:
     - target: {fileID: 224000012043017840, guid: 62abed2645f1fa14a8691c1f03128245,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 224000012043017840, guid: 62abed2645f1fa14a8691c1f03128245,
         type: 2}
@@ -8292,7 +8293,7 @@ GameObject:
   - component: {fileID: 1051994360}
   m_Layer: 16
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: puzzle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11000,7 +11001,7 @@ Transform:
   m_Children:
   - {fileID: 163287430}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1515298639
 MeshCollider:
@@ -12993,7 +12994,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1806257213}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.006409, y: 2.14, z: 9.44376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

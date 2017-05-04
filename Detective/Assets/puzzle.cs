@@ -53,7 +53,7 @@ public class puzzle : MonoBehaviour {
 		puzzleObj.transform.position = pos + camera.transform.forward * 2;
 		Vector3 angles = camera.transform.eulerAngles;
 		// 0 = 180; 90 = 270; 180 = 0; 270 = 90;
-		puzzleObj.transform.eulerAngles = new Vector3(90f, 180 + angles.y, 0f);
+		puzzleObj.transform.eulerAngles = new Vector3(0f, 180 + angles.y, 0f);
 		GetComponent<PlayerController>().SetFrozen(true);
 	}
 

@@ -9,6 +9,8 @@ TagManager:
   - Interactable
   - Target
   - Button
+  - puzzle
+  - lock
   layers:
   - Default
   - TransparentFX
