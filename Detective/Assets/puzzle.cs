@@ -7,6 +7,7 @@ public class puzzle : MonoBehaviour {
 	public GameObject hitObject1;
 	public GameObject hitObject2;
 	public GameObject camera;
+	public GameObject puzzleObj;
 	public int i;
 
 	private bool playing;
@@ -43,6 +44,22 @@ public class puzzle : MonoBehaviour {
 				}
 			}
 		}
+	}
+
+	public void StartPuzzle() {
+		playing = true;
+		Vector3 tarPos = camera.transform.parent.transform.position;
+		Vector3 pos = new Vector3(tarPos.x, tarPos.y + .8f, tarPos.z);
+		puzzleObj.transform.position = pos + camera.transform.forward * 2;
+		Vector3 angles = camera.transform.eulerAngles;
+		// 0 = 180; 90 = 270; 180 = 0; 270 = 90;
+		puzzleObj.transform.eulerAngles = new Vector3(90f, 180 + angles.y, 0f);
+		GetComponent<PlayerController>().SetFrozen(true);
+	}
+
+	public void StopLockPuzzle() {
+		playing = false;
+		GetComponent<PlayerController>().SetFrozen(false);
 	}
 
 	void changeposition(GameObject hitObject1, GameObject hitObject2){

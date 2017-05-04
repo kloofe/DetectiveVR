@@ -47,7 +47,12 @@ public class Raycast : MonoBehaviour {
 				hitTag = hit.collider.tag;
 				hitObject = hit.collider.gameObject;
 				if(GvrViewer.Instance.Triggered) {
-					transform.parent.gameObject.transform.parent.GetComponent<locks>().StartLockPuzzle();
+					if(hitTag == "lock") {
+						transform.parent.gameObject.transform.parent.GetComponent<locks>().StartLockPuzzle();
+					}
+					else if(hitTag == "puzzle") {
+						transform.parent.gameObject.transform.parent.GetComponent<puzzle>().StartPuzzle();
+					}
 				}
 			}	
 			else {

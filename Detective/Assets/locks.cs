@@ -43,7 +43,6 @@ public class locks : MonoBehaviour {
 		Vector3 angles = camera.transform.eulerAngles;
 		// 0 = 180; 90 = 270; 180 = 0; 270 = 90;
 		lockObj.transform.eulerAngles = new Vector3(90f, 180 + angles.y, 0f);
-		Debug.Log(camera.transform.forward);
 		GetComponent<PlayerController>().SetFrozen(true);
 	}
 
