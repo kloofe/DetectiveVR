@@ -41,6 +41,14 @@ public class Raycast : MonoBehaviour {
 			else if(Physics.Raycast(myRay, out hit, 12f, 1 << 13)) {
 				ChangeColor(Color.green);
 				//hit.collider.gameObject.GetComponent<
+			}
+			else if(Physics.Raycast(myRay, out hit, 12f, 1 << 16)) {
+				ChangeColor(Color.green);
+				hitTag = hit.collider.tag;
+				hitObject = hit.collider.gameObject;
+				if(GvrViewer.Instance.Triggered) {
+					transform.parent.gameObject.transform.parent.GetComponent<locks>().StartLockPuzzle();
+				}
 			}	
 			else {
 				ChangeColor(Color.red);

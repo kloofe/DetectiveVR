@@ -7,6 +7,7 @@ public class locks : MonoBehaviour {
 	public GameObject lock2;
 	public GameObject lock3;
 	public GameObject lock4;
+	public GameObject lockObj;
 	public RaycastHit hit;
 	public Camera camera;
 	private bool playing;
@@ -36,6 +37,11 @@ public class locks : MonoBehaviour {
 
 	public void StartLockPuzzle() {
 		playing = true;
+		Vector3 tarPos = camera.transform.parent.transform.position;
+		Vector3 pos = new Vector3(tarPos.x, tarPos.y, tarPos.z);
+		lockObj.transform.position = pos;
+		Vector3 angles = camera.transform.eulerAngles;
+		lockObj.transform.eulerAngles = new Vector3(transform.eulerAngles.x, angles.y, transform.eulerAngles.z);
 		GetComponent<PlayerController>().SetFrozen(true);
 	}
 
