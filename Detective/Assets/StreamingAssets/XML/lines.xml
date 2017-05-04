@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lines>
+	<story type = "start">
+		<plot type = "Introduction">
+			I am XXXXX, 
+			a college student majoring in Criminology.
+			For all my life, 
+			I have dreamed that I could become a detective.
+			My idol Mr. XXXX owns the greatest detective agent in the U.S.,
+			and under his eyes, every case has a moment of truth.
+			I got to know him when he once gave a talk in my high school.
+			But it was two months ago, 
+			when I accidentally helped his team detect a stolen exhibit case 
+			that he started to appreciate my ability.
+			From then on, 
+			I always dreamed that I could work with his team sometime.
+			That's the coolest thing that I could ever imagine.
+			
+		</plot>
+		<plot type = "dinner">
+			This must be it.
+		</plot>
+	<story type = "nextMorning">
+		<plot type = "mono1">
+			Ehhh...
+			Why am I feeling so dizzy... 
+			I must be very drunk last night...
+			I need to go out and get a cup of water.
+			It seems that the lock is broken...
+			Hey, is anybody out there? 
+			Umm...It is only seven o'clock.
+			They are probably still asleep.
+			Wait...
+		</plot>
+		<plot type = "mono2">
+			Someone else must have been here. 
+			There is nobody else in the room though.
+			He or she must have found another way to get out of here.
+		</plot>
+		<plot type = "convb">
+			Ahhh! Good morning Mr. XXX!
+			So glad to see someone getting up as early as I do, 
+			especially during Winter time!
+		</plot>
+		<plot type = "Host_Room">
+			What happened in here? 
+			Everything is so messy. 
+			There must have been a fight, 
+			between Mr.XXX and who came in through the secret pathway.
+
+		<plot type = "convg">
+			Ahhh! Good morning Mr. XXX!
+			So glad to see someone getting up as early as I do, 
+			especially during Winter time!
+		</plot>
