@@ -24,7 +24,12 @@ public class locks : MonoBehaviour {
 			if (Physics.Raycast (myRay, out hit, 12f, 1 << 15)) {
 				Debug.Log (hit.collider.name);
 				if (GvrViewer.Instance.Triggered) {
-					hit.collider.gameObject.transform.Rotate(Vector3.up, 36);
+					if(hit.collider.tag == "close") {
+						StopLockPuzzle();
+					}
+					else {
+						hit.collider.gameObject.transform.Rotate(Vector3.up, 36);
+					}
 				}
 			}
 			if (Rotatelock ()) {
@@ -48,6 +53,7 @@ public class locks : MonoBehaviour {
 
 	public void StopLockPuzzle() {
 		playing = false;
+		lockObj.SetActive(false);
 		GetComponent<PlayerController>().SetFrozen(false);
 	}
 

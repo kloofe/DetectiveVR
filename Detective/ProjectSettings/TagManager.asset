@@ -11,6 +11,7 @@ TagManager:
   - Button
   - puzzle
   - lock
+  - close
   layers:
   - Default
   - TransparentFX

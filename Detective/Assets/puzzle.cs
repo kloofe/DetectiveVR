@@ -25,7 +25,10 @@ public class puzzle : MonoBehaviour {
 			if (Physics.Raycast (myRay, out hit, 12f, 1 << 14)) {
 				Debug.Log ("hit");
 				if (GvrViewer.Instance.Triggered) {
-					if (i == 1) {
+					if(hit.collider.tag == "close") {
+						StopPuzzle();
+					}
+					else if (i == 1) {
 						hitObject1 = hit.collider.gameObject;
 						Debug.Log (hitObject1.name);
 						if (i == 1) {
@@ -57,8 +60,9 @@ public class puzzle : MonoBehaviour {
 		GetComponent<PlayerController>().SetFrozen(true);
 	}
 
-	public void StopLockPuzzle() {
+	public void StopPuzzle() {
 		playing = false;
+		puzzleObj.SetActive(false);
 		GetComponent<PlayerController>().SetFrozen(false);
 	}
 
