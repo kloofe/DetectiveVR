@@ -1139,7 +1139,8 @@ GameObject:
   m_Component:
   - component: {fileID: 131066467}
   - component: {fileID: 131066468}
-  m_Layer: 0
+  - component: {fileID: 131066469}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1153,7 +1154,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 131066466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5721893, y: 1.593915, z: 0.8998337}
+  m_LocalPosition: {x: 3.84, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -1199,6 +1200,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &131066469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131066466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &153302643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1645,8 @@ GameObject:
   m_Component:
   - component: {fileID: 214006058}
   - component: {fileID: 214006059}
-  m_Layer: 0
+  - component: {fileID: 214006060}
+  m_Layer: 14
   m_Name: letter1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1660,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214006057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.41, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -1692,6 +1706,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &214006060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214006057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &221895409 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100040, guid: c1a9d35e55c0f9544875af5edc82dda1, type: 3}
@@ -2043,7 +2069,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 278035089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.907234, y: 0, z: 0.0741806}
+  m_LocalPosition: {x: 2.72, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -4017,7 +4043,8 @@ GameObject:
   m_Component:
   - component: {fileID: 458731202}
   - component: {fileID: 458731203}
-  m_Layer: 0
+  - component: {fileID: 458731204}
+  m_Layer: 14
   m_Name: letter1_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4031,7 +4058,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 458731201}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.91, y: 0.02, z: -5.24}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -4077,6 +4104,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &458731204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 458731201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &463743646 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 34627875d9893c940bf6b240884b5238, type: 3}
@@ -4122,7 +4161,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 480160483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.84317, y: -3.7248034, z: 79.17278}
+  m_LocalPosition: {x: 29.84317, y: 1.92, z: 79.17278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 725485910}
@@ -6081,7 +6120,8 @@ GameObject:
   m_Component:
   - component: {fileID: 709296087}
   - component: {fileID: 709296088}
-  m_Layer: 0
+  - component: {fileID: 709296089}
+  m_Layer: 14
   m_Name: letter1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6095,7 +6135,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 709296086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.05, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -6141,6 +6181,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &709296089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 709296086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &713229581
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,7 +6370,8 @@ GameObject:
   m_Component:
   - component: {fileID: 725485910}
   - component: {fileID: 725485911}
-  m_Layer: 0
+  - component: {fileID: 725485912}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6332,7 +6385,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 725485909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.51, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -6378,6 +6431,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &725485912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725485909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &731182570
 GameObject:
   m_ObjectHideFlags: 0
@@ -6682,7 +6747,8 @@ GameObject:
   m_Component:
   - component: {fileID: 749958926}
   - component: {fileID: 749958927}
-  m_Layer: 0
+  - component: {fileID: 749958928}
+  m_Layer: 14
   m_Name: letter1_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6696,7 +6762,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 749958925}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5363617, y: -0.16, z: -5.25}
+  m_LocalPosition: {x: 2.14, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -6742,6 +6808,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &749958928
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749958925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &752741425
 GameObject:
   m_ObjectHideFlags: 0
@@ -7315,7 +7393,8 @@ GameObject:
   m_Component:
   - component: {fileID: 816917874}
   - component: {fileID: 816917875}
-  m_Layer: 0
+  - component: {fileID: 816917876}
+  m_Layer: 14
   m_Name: letter2_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7329,7 +7408,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816917873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9854946, y: -0.33313394, z: 0.36120605}
+  m_LocalPosition: {x: 2.62, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -7375,6 +7454,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &816917876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816917873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &817062352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8470,7 +8561,8 @@ GameObject:
   m_Component:
   - component: {fileID: 962257853}
   - component: {fileID: 962257854}
-  m_Layer: 0
+  - component: {fileID: 962257855}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8484,7 +8576,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 962257852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.543518, y: 0, z: -0.08067322}
+  m_LocalPosition: {x: 0.87, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -8530,6 +8622,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &962257855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962257852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &967552392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8715,7 +8819,8 @@ GameObject:
   m_Component:
   - component: {fileID: 998079061}
   - component: {fileID: 998079062}
-  m_Layer: 0
+  - component: {fileID: 998079063}
+  m_Layer: 14
   m_Name: letter1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8729,7 +8834,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 998079060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.23, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -8775,6 +8880,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &998079063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998079060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1006978584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9500,7 +9617,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1094619664}
   - component: {fileID: 1094619665}
-  m_Layer: 0
+  - component: {fileID: 1094619666}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9514,7 +9632,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1094619663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9492226, y: 0, z: 0.2993393}
+  m_LocalPosition: {x: -0.25, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -9560,6 +9678,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1094619666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094619663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1104162575
 GameObject:
   m_ObjectHideFlags: 0
@@ -9569,7 +9699,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1104162576}
   - component: {fileID: 1104162577}
-  m_Layer: 0
+  - component: {fileID: 1104162578}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9583,7 +9714,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1104162575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7311401, y: 0, z: 2.5868378}
+  m_LocalPosition: {x: 4.96, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -9629,6 +9760,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1104162578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104162575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1116267946
 GameObject:
   m_ObjectHideFlags: 0
@@ -9674,7 +9817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123757644}
   - component: {fileID: 1123757645}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9688,7 +9831,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1123757643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2486382, y: 0, z: -0.072776794}
+  m_LocalPosition: {x: -1.38, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -9817,7 +9960,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1133166833}
   - component: {fileID: 1133166834}
-  m_Layer: 0
+  - component: {fileID: 1133166835}
+  m_Layer: 14
   m_Name: letter2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9831,7 +9975,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1133166832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0366535, y: -0.035206795, z: -0.14427948}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -9877,6 +10021,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1133166835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133166832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1135491151
 GameObject:
   m_ObjectHideFlags: 0
@@ -11407,7 +11563,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1327352027}
   - component: {fileID: 1327352028}
-  m_Layer: 0
+  - component: {fileID: 1327352029}
+  m_Layer: 14
   m_Name: letter2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11421,7 +11578,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1327352026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.039797, y: -0.18943834, z: 0.1062088}
+  m_LocalPosition: {x: 1.58, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -11467,6 +11624,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1327352029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327352026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1345505637
 GameObject:
   m_ObjectHideFlags: 0
@@ -12836,7 +13005,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1528032203}
   - component: {fileID: 1528032204}
-  m_Layer: 0
+  - component: {fileID: 1528032205}
+  m_Layer: 14
   m_Name: letter2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12850,7 +13020,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1528032202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.57, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -12896,6 +13066,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1528032205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528032202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1533749335
 Prefab:
   m_ObjectHideFlags: 0
@@ -13381,7 +13563,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1596440488}
   - component: {fileID: 1596440489}
-  m_Layer: 0
+  - component: {fileID: 1596440490}
+  m_Layer: 14
   m_Name: letter2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13395,7 +13578,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596440487}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.069563, y: -0.08849931, z: -0.061836243}
+  m_LocalPosition: {x: 0.54, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -13441,6 +13624,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1596440490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596440487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1600019418
 GameObject:
   m_ObjectHideFlags: 0
@@ -13450,7 +13645,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1600019419}
   - component: {fileID: 1600019420}
-  m_Layer: 0
+  - component: {fileID: 1600019421}
+  m_Layer: 14
   m_Name: letter1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13464,7 +13660,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1600019418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.91, y: -0.14, z: -5.25}
+  m_LocalPosition: {x: 0.87, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 967552393}
@@ -13510,6 +13706,18 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1600019421
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600019418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 5.12, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1620451936 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 34627875d9893c940bf6b240884b5238, type: 3}
@@ -14934,7 +15142,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1805579767}
   - component: {fileID: 1805579768}
-  m_Layer: 0
+  - component: {fileID: 1805579769}
+  m_Layer: 14
   m_Name: letter2_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14948,7 +15157,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805579766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.879347, y: -0.5560713, z: 0.68341446}
+  m_LocalPosition: {x: 3.65, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -14994,6 +15203,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1805579769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805579766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1806257213
 GameObject:
   m_ObjectHideFlags: 0
@@ -15323,7 +15544,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1879835851}
   - component: {fileID: 1879835852}
-  m_Layer: 0
+  - component: {fileID: 1879835853}
+  m_Layer: 14
   m_Name: letter2_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15337,7 +15559,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1879835850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.7356815, y: -0.8312144, z: 1.0844421}
+  m_LocalPosition: {x: 4.68, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -15383,6 +15605,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &1879835853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879835850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1896999816 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100020, guid: c1a9d35e55c0f9544875af5edc82dda1, type: 3}
@@ -16637,7 +16871,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2041709523}
   - component: {fileID: 2041709524}
-  m_Layer: 0
+  - component: {fileID: 2041709525}
+  m_Layer: 14
   m_Name: letter_paper_3_by_spidergypsy-d4fhuub_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16651,7 +16886,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041709522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3173523, y: 0, z: 0.081222534}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480160484}
@@ -16697,6 +16932,18 @@ SpriteRenderer:
   m_Size: {x: 1.125, y: 10.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &2041709525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041709522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 10.13, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2045031076
 GameObject:
   m_ObjectHideFlags: 0
@@ -16927,7 +17174,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2062133078}
   - component: {fileID: 2062133079}
-  m_Layer: 0
+  - component: {fileID: 2062133080}
+  m_Layer: 14
   m_Name: letter2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16941,7 +17189,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062133077}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0148373, y: -0.03140068, z: -0.12965775}
+  m_LocalPosition: {x: -1.54, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159157902}
@@ -16987,6 +17235,18 @@ SpriteRenderer:
   m_Size: {x: 1.04, y: 9.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!65 &2062133080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062133077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04, y: 9.6, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2069616453
 GameObject:
   m_ObjectHideFlags: 0
