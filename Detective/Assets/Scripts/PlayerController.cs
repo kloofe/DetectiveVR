@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
 
 
 		if (GvrViewer.Instance.Triggered) {
-			if(!inv.GetComponent<InventorySystem>().talking) {
+			//if(!inv.GetComponent<InventorySystem>().talking) {
 
 				if ((target.gameObject.GetComponent<Renderer> ().material.color == Color.green) && (foundsomething == false)) {
 					if (moving == false) {
@@ -51,10 +51,10 @@ public class PlayerController : MonoBehaviour {
 						foundsomething = false;
 					}
 				}
-			}
-			else {
-				moving = false;
-			}
+			//}
+			//else {
+			//	moving = false;
+			//}
 
 		}
 
