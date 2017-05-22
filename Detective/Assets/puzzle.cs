@@ -8,13 +8,16 @@ public class puzzle : MonoBehaviour {
 	public GameObject hitObject2;
 	public GameObject camera;
 	public GameObject puzzleObj;
+	public List<GameObject> puzzles;
 	public int i;
 
+	private int puzzleCount;
 	private bool playing;
 	// Use this for initialization
 	void Start () {
 		i = 1;
 		playing = false;
+		puzzleCount = 0;
 	}
 	
 	// Update is called once per frame
@@ -44,6 +47,18 @@ public class puzzle : MonoBehaviour {
 						}
 						i = 1;
 					} 
+
+					if(IsCorrect()) {
+						puzzleCount++;
+						if(puzzleCount < 3) {
+							puzzleObj.SetActive(false);
+							puzzleObj = puzzles[puzzleCount];
+							puzzleObj.SetActive(true);
+						}
+						else {
+							puzzleObj.SetActive(false);
+						}
+					}
 				}
 			}
 		}
@@ -64,6 +79,10 @@ public class puzzle : MonoBehaviour {
 		playing = false;
 		puzzleObj.SetActive(false);
 		GetComponent<PlayerController>().SetFrozen(false);
+	}
+
+	bool IsCorrect() {
+		return true;
 	}
 
 	void changeposition(GameObject hitObject1, GameObject hitObject2){
