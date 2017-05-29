@@ -12,6 +12,14 @@ TagManager:
   - puzzle
   - lock
   - close
+  - puz1
+  - puz2
+  - puz3
+  - puz4
+  - puz5
+  - puz6
+  - puz7
+  - puz8
   layers:
   - Default
   - TransparentFX

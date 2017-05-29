@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1267,8 +1267,20 @@ MonoBehaviour:
   hitObject2: {fileID: 0}
   camera: {fileID: 1386544351}
   puzzleObj: {fileID: 1806257213}
-  puzzles: []
+  puzzles:
+  - {fileID: 967552392}
+  - {fileID: 1159157901}
+  - {fileID: 480160483}
+  puzzlepieces: []
   i: 0
+  puz1: puz1
+  puz2: puz2
+  puz3: puz3
+  puz4: puz4
+  puz5: puz5
+  puz6: puz6
+  puz7: puz7
+  puz8: puz8
 --- !u!114 &78758181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,8 +1963,8 @@ GameObject:
   - component: {fileID: 131066468}
   - component: {fileID: 131066469}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_6
-  m_TagString: Untagged
+  m_Name: l3_7
+  m_TagString: puz7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2884,8 +2896,8 @@ GameObject:
   - component: {fileID: 214006059}
   - component: {fileID: 214006060}
   m_Layer: 14
-  m_Name: letter1_1
-  m_TagString: Untagged
+  m_Name: l1_2
+  m_TagString: puz2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3719,8 +3731,8 @@ GameObject:
   - component: {fileID: 278035090}
   - component: {fileID: 278035091}
   m_Layer: 0
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_5
-  m_TagString: Untagged
+  m_Name: l3_6
+  m_TagString: puz6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6665,8 +6677,8 @@ GameObject:
   - component: {fileID: 458731203}
   - component: {fileID: 458731204}
   m_Layer: 14
-  m_Name: letter1_4
-  m_TagString: Untagged
+  m_Name: l1_5
+  m_TagString: puz5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6839,7 +6851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480160484}
   m_Layer: 0
-  m_Name: letter 3
+  m_Name: l3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8659,7 +8671,7 @@ Transform:
   - {fileID: 883505527}
   - {fileID: 1806840937}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615507170
 GameObject:
@@ -10641,8 +10653,8 @@ GameObject:
   - component: {fileID: 709296088}
   - component: {fileID: 709296089}
   m_Layer: 14
-  m_Name: letter1_0
-  m_TagString: Untagged
+  m_Name: l1_1
+  m_TagString: puz1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10990,8 +11002,8 @@ GameObject:
   - component: {fileID: 725485911}
   - component: {fileID: 725485912}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_0
-  m_TagString: Untagged
+  m_Name: l3_1
+  m_TagString: puz1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11367,8 +11379,8 @@ GameObject:
   - component: {fileID: 749958927}
   - component: {fileID: 749958928}
   m_Layer: 14
-  m_Name: letter1_5
-  m_TagString: Untagged
+  m_Name: l1_6
+  m_TagString: puz6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12504,8 +12516,8 @@ GameObject:
   - component: {fileID: 816917875}
   - component: {fileID: 816917876}
   m_Layer: 14
-  m_Name: letter2_5
-  m_TagString: Untagged
+  m_Name: l2_6
+  m_TagString: puz6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14850,8 +14862,8 @@ GameObject:
   - component: {fileID: 962257854}
   - component: {fileID: 962257855}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_3
-  m_TagString: Untagged
+  m_Name: l3_4
+  m_TagString: puz4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14930,7 +14942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967552393}
   m_Layer: 0
-  m_Name: letter 1
+  m_Name: l1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15463,8 +15475,8 @@ GameObject:
   - component: {fileID: 998079062}
   - component: {fileID: 998079063}
   m_Layer: 14
-  m_Name: letter1_2
-  m_TagString: Untagged
+  m_Name: l1_3
+  m_TagString: puz3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16050,7 +16062,7 @@ GameObject:
   - component: {fileID: 1051994360}
   m_Layer: 16
   m_Name: Cube
-  m_TagString: lock
+  m_TagString: puzzle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16687,8 +16699,8 @@ GameObject:
   - component: {fileID: 1094619665}
   - component: {fileID: 1094619666}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_2
-  m_TagString: Untagged
+  m_Name: l3_3
+  m_TagString: puz3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16911,8 +16923,8 @@ GameObject:
   - component: {fileID: 1104162577}
   - component: {fileID: 1104162578}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_7
-  m_TagString: Untagged
+  m_Name: l3_8
+  m_TagString: puz8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17099,8 +17111,8 @@ GameObject:
   - component: {fileID: 1123757644}
   - component: {fileID: 1123757645}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_1
-  m_TagString: Untagged
+  m_Name: l3_2
+  m_TagString: puz2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17271,8 +17283,8 @@ GameObject:
   - component: {fileID: 1133166834}
   - component: {fileID: 1133166835}
   m_Layer: 14
-  m_Name: letter2_2
-  m_TagString: Untagged
+  m_Name: l2_3
+  m_TagString: puz3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17715,7 +17727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1159157902}
   m_Layer: 0
-  m_Name: letter 2
+  m_Name: l2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19199,7 +19211,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400092, guid: 3795ebea3dbb4bd44bb15b410b9380d7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3795ebea3dbb4bd44bb15b410b9380d7, type: 3}
@@ -19965,8 +19977,8 @@ GameObject:
   - component: {fileID: 1327352028}
   - component: {fileID: 1327352029}
   m_Layer: 14
-  m_Name: letter2_4
-  m_TagString: Untagged
+  m_Name: l2_5
+  m_TagString: puz5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22539,8 +22551,8 @@ GameObject:
   - component: {fileID: 1528032204}
   - component: {fileID: 1528032205}
   m_Layer: 14
-  m_Name: letter2_0
-  m_TagString: Untagged
+  m_Name: l2_1
+  m_TagString: puz1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23381,8 +23393,8 @@ GameObject:
   - component: {fileID: 1596440489}
   - component: {fileID: 1596440490}
   m_Layer: 14
-  m_Name: letter2_3
-  m_TagString: Untagged
+  m_Name: l2_4
+  m_TagString: puz4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23463,8 +23475,8 @@ GameObject:
   - component: {fileID: 1600019420}
   - component: {fileID: 1600019421}
   m_Layer: 14
-  m_Name: letter1_3
-  m_TagString: Untagged
+  m_Name: l1_4
+  m_TagString: puz4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26677,8 +26689,8 @@ GameObject:
   - component: {fileID: 1805579768}
   - component: {fileID: 1805579769}
   m_Layer: 14
-  m_Name: letter2_6
-  m_TagString: Untagged
+  m_Name: l2_7
+  m_TagString: puz7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27557,8 +27569,8 @@ GameObject:
   - component: {fileID: 1879835852}
   - component: {fileID: 1879835853}
   m_Layer: 14
-  m_Name: letter2_7
-  m_TagString: Untagged
+  m_Name: l2_8
+  m_TagString: puz8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30425,8 +30437,8 @@ GameObject:
   - component: {fileID: 2041709524}
   - component: {fileID: 2041709525}
   m_Layer: 14
-  m_Name: letter_paper_3_by_spidergypsy-d4fhuub_4
-  m_TagString: Untagged
+  m_Name: l3_5
+  m_TagString: puz5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30942,8 +30954,8 @@ GameObject:
   - component: {fileID: 2062133079}
   - component: {fileID: 2062133080}
   m_Layer: 14
-  m_Name: letter2_1
-  m_TagString: Untagged
+  m_Name: l2_2
+  m_TagString: puz2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
